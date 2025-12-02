@@ -1,0 +1,122 @@
+/* ================================
+   GLOBAL RESET
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff6fa;
+  color: #2e2e2e;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* ================================
+   CORES DA MARCA
+================================ */
+:root {
+  --rosa-principal: #ff4f93;
+  --rosa-claro: #ff87b2;
+  --rosa-pastel: #f8dce8;
+  --cinza-suave: #f5f5f7;
+  --texto: #2e2e2e;
+}
+
+/* ================================
+   TITULOS
+================================ */
+h1, h2, h3 {
+  color: var(--rosa-principal);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* ================================
+   CONTAINER PRINCIPAL
+================================ */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ================================
+   PARAGRAFOS
+================================ */
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* ================================
+   INPUTS
+================================ */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid var(--rosa-pastel);
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+/* Quando o usuário clica no input */
+input:focus {
+  outline: none;
+  border-color: var(--rosa-principal);
+}
+
+/* ================================
+   LABELS
+================================ */
+label {
+  font-weight: 500;
+  color: var(--rosa-principal);
+  font-size: 15px;
+}
+
+/* ================================
+   BOTÕES
+================================ */
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 12px;
+  background: var(--rosa-principal);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #e84482;
+}
+
+/* ================================
+   SEÇÕES
+================================ */
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+/* ================================
+   RODAPÉ
+================================ */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 14px;
+}
