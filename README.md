@@ -50,7 +50,7 @@ TWILIO_ACCOUNT_SID=AC94c7baafaf78a1951ab2427e004310e3
 TWILIO_AUTH_TOKEN=184adf49a4ad8e5dc987e019aa930edf
 TWILIO_NUMBER=whatsapp:+14155238886
 ADMIN_WHATSAPP=whatsapp:+557588669207
-DATABASE_URL=postgresql://user:pass@host:5432/db
+DATABASE_URL=postgresql://postgres:theuzin12356@db.uaasrealnqocaynryvlg.supabase.co:5432/postgres
 CRON_SECRET=seu-secret-aqui
 ```
 
@@ -119,3 +119,4 @@ WhatsApp: (75) 8866-9207
 
 
 Desenvolvido por Matheus Costa
+
