@@ -37,7 +37,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Serviço e data são obrigatórios' })
     }
 
-    const diaData = new Date(data + 'T00:00:00')
+   const diaData = new Date(`${data}T00:00:00-03:00`)
     const diaSemana = diaData.getDay()
     
     if (diaSemana === 0 || diaSemana === 1) {
@@ -104,4 +104,5 @@ export default async function handler(req, res) {
       details: error.message 
     })
   }
+
 }
