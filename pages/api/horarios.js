@@ -55,7 +55,11 @@ try {
 
     const duracaoServico = SERVICOS[servico] || 60
 
+  console.log('Executando query no banco...');
+
     const result = await pool.query(
+      console.log('Agendamentos encontrados:', agendamentosExistentes.length);
+console.log('Agendamentos:', agendamentosExistentes);
       'SELECT hora, duracao_minutos FROM agendamentos WHERE data = $1 ORDER BY hora',
       [data]
     )
@@ -112,4 +116,5 @@ try {
   }
 
 }
+
 
