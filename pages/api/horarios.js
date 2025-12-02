@@ -30,8 +30,14 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Método não permitido' })
   }
 
-  try {
-    const { servico, data } = req.query
+try {
+  const { servico, data } = req.query;
+  
+  // LOGS DE DEBUG
+  console.log('=== DEBUG HORARIOS ===');
+  console.log('Servico:', servico);
+  console.log('Data:', data);
+  console.log('DATABASE_URL:', process.env.DATABASE_URL ? 'Configurada' : 'NÃO configurada');
 
     if (!servico || !data) {
       return res.status(400).json({ error: 'Serviço e data são obrigatórios' })
@@ -106,3 +112,4 @@ export default async function handler(req, res) {
   }
 
 }
+
