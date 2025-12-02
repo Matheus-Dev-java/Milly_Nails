@@ -32,6 +32,10 @@ export default async function handler(req, res) {
 
   try {
     const { servico, data } = req.query
+    console.log('=== DEBUG HORARIOS ===');
+  console.log('Servico:', servico);
+  console.log('Data:', data);
+  console.log('DATABASE_URL:', process.env.DATABASE_URL ? 'Configurada' : 'NÃO configurada');
 
     if (!servico || !data) {
       return res.status(400).json({ error: 'Serviço e data são obrigatórios' })
@@ -104,4 +108,5 @@ export default async function handler(req, res) {
       details: error.message 
     })
   }
+
 }
