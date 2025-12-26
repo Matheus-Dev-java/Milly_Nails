@@ -6,6 +6,7 @@ Sistema completo de agendamento online com:
 - Banco PostgreSQL
 - Notificações WhatsApp via Twilio
 - Cron job diário às 08:00
+- https://milly-nails-jo81.vercel.app/
 
 ## 🚀 Deploy Rápido
 
@@ -119,4 +120,5 @@ WhatsApp: (75) 8866-9207
 
 
 Desenvolvido por Matheus Costa
+
 
