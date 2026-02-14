@@ -47,12 +47,12 @@ vercel --prod
 
 Copie `.env.example` para `.env.local` e preencha:
 ```env
-TWILIO_ACCOUNT_SID=AC94c7baafaf78a1951ab2427e004310e3
-TWILIO_AUTH_TOKEN=184adf49a4ad8e5dc987e019aa930edf
-TWILIO_NUMBER=whatsapp:+14155238886
-ADMIN_WHATSAPP=whatsapp:+557588669207
-DATABASE_URL=postgresql://postgres:theuzin12356@db.uaasrealnqocaynryvlg.supabase.co:5432/postgres
-CRON_SECRET=seu-secret-aqui
+TWILIO_ACCOUNT_SID=*******************
+TWILIO_AUTH_TOKEN=*******************
+TWILIO_NUMBER=whatsapp:*******************
+ADMIN_WHATSAPP=whatsapp:*******************
+DATABASE_URL=*******************
+CRON_SECRET=*******************
 ```
 
 ## 📋 Funcionalidades
@@ -120,6 +120,7 @@ WhatsApp: (75) 8866-9207
 
 
 Desenvolvido por Matheus Costa
+
 
 
 
